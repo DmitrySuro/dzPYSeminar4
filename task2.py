@@ -8,7 +8,7 @@ multipliers = []
 while i * i <= user_number:
     while user_number % i == 0:
         multipliers.append(i)
-        user_number = user_number / i
+        user_number = user_number // i
     i = i + 1
 if user_number > 1:
     multipliers.append(user_number)
